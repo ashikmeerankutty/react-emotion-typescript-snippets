@@ -34,5 +34,8 @@
   "devDependencies": {
     "semantic-release": "^17.2.1",
     "vsce": "^1.81.1"
+  },
+  "dependencies": {
+    "semantic-release-vsce": "^3.0.1"
   }
 }
