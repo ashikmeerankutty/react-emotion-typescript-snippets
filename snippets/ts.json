@@ -3,7 +3,6 @@
     "prefix": "tsrefce",
     "body": [
       "/**@jsx jsx */",
-      "// eslint-disable-next-line no-unused-vars",
       "import { jsx, css } from '@emotion/core'",
       "import { FunctionComponent } from 'react'",
       "",
