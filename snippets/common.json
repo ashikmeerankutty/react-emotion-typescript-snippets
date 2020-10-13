@@ -3,5 +3,9 @@
     "prefix": "iej",
     "body": ["import { jsx } from '@emotion/core'"],
     "description": "Import Emotion jsx"
+  },
+  "useState": {
+    "prefix": "uss",
+    "body": ["const [${1}, set${1/(.*)/${1:/pascalcase}/}] = useState($2)"]
   }
 }
