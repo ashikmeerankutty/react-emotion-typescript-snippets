@@ -7,5 +7,16 @@
   "useState": {
     "prefix": "uss",
     "body": ["const [${1}, set${1/(.*)/${1:/pascalcase}/}] = useState($2)"]
+  },
+  "useEffect": {
+    "prefix": "use",
+    "body": [
+      "useEffect(() => {",
+      "\t${1:effect}",
+      "\treturn () => {",
+      "\t\t${2:cleanup}",
+      "\t}",
+      "}, [${3:input}])"
+    ]
   }
 }
