@@ -1,6 +1,6 @@
 {
-  "typescriptReactEmotionFunctionalExportComponent": {
-    "prefix": "tsrefce",
+  "typescriptReactEmotionFunctionalDefaultExportComponent": {
+    "prefix": "tsrdefce",
     "body": [
       "/**@jsx jsx */",
       "import { jsx, css } from '@emotion/core'",
@@ -19,6 +19,28 @@
       "}",
       "",
       "export default ${1}",
+      ""
+    ],
+    "description": "Creates a React Functional component with Emotion and TypeScript interface and default export"
+  },
+  "typescriptReactEmotionFunctionalExportComponent": {
+    "prefix": "tsrefce",
+    "body": [
+      "/**@jsx jsx */",
+      "import { jsx, css } from '@emotion/core'",
+      "import { FunctionComponent } from 'react'",
+      "",
+      "interface ${1}Props {",
+      "\t",
+      "}",
+      "",
+      "export const ${1}: FunctionComponent<${1}Props> = ({}) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
       ""
     ],
     "description": "Creates a React Functional Component with Emotion and TypeScript interface"
