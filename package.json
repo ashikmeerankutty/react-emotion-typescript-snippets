@@ -12,6 +12,13 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "snippets",
+    "react",
+    "emotion",
+    "javascript",
+    "typescript"
+  ],
   "contributes": {
     "snippets": [
       {
