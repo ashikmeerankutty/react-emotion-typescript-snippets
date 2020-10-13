@@ -1,0 +1,33 @@
+{
+  "name": "react-emotion-snippets",
+  "displayName": "React Emotion Snippets",
+  "description": "Snippets for React and Emotion",
+  "author": "@ashikmeerankuuty",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts-snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts-snippets.code-snippets"
+      }
+    ]
+  }
+}
