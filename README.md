@@ -1,3 +1,3 @@
-# react-emotion-snippets README
+# react-emotion-snippets
 
 React Snippets with Emotion and Typescript

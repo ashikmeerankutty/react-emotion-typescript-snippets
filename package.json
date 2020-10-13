@@ -3,6 +3,7 @@
   "displayName": "React Emotion Snippets",
   "description": "Snippets for React and Emotion",
   "author": "@ashikmeerankuuty",
+  "publisher": "mrdevops",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.50.0"
@@ -29,5 +30,9 @@
         "path": "./snippets/ts-snippets.code-snippets"
       }
     ]
+  },
+  "devDependencies": {
+    "semantic-release": "^17.2.1",
+    "vsce": "^1.81.1"
   }
 }
