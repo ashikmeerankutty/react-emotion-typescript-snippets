@@ -10,5 +10,6 @@
       "path": "@semantic-release/github",
       "assets": "mrdevops.react-emotion-snippets.vsix"
     }
-  ]
+  ],
+  "branches": ["main"]
 }
