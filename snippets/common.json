@@ -1,0 +1,7 @@
+{
+  "importEmotionJsx": {
+    "prefix": "iej",
+    "body": ["import { jsx } from '@emotion/core'"],
+    "description": "Import Emotion jsx"
+  }
+}

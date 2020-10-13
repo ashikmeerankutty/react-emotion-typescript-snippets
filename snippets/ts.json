@@ -23,10 +23,5 @@
       ""
     ],
     "description": "Creates a React Functional Component with Emotion and TypeScript interface"
-  },
-  "importEmotionJsx": {
-    "prefix": "tsriej",
-    "body": ["import { jsx } from '@emotion/core'"],
-    "description": "Import Emotion jsx"
   }
 }

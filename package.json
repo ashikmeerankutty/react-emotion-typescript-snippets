@@ -23,19 +23,35 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/common.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/common.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/js.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/ts-snippets.code-snippets"
+        "path": "./snippets/common.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/ts-snippets.code-snippets"
+        "path": "./snippets/common.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts.json"
       }
     ]
   },
