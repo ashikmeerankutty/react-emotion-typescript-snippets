@@ -4,10 +4,12 @@
     "body": ["import { jsx } from '@emotion/core'"],
     "description": "Import Emotion jsx"
   },
+
   "useState": {
     "prefix": "uss",
     "body": ["const [${1}, set${1/(.*)/${1:/pascalcase}/}] = useState($2)"]
   },
+
   "useEffect": {
     "prefix": "use",
     "body": [
@@ -18,5 +20,54 @@
       "\t}",
       "}, [${3:input}])"
     ]
+  },
+  
+  "useContext": {
+    "prefix": "usc",
+    "body": ["const ${1:context} = useContext(${2:contextValue})"]
+  },
+
+  "useReducer": {
+    "prefix": "usr",
+    "body": [
+      "const [state, dispatch] = useReducer(${1:reducer}, ${2:initialState}, ${3:init})"
+    ]
+  },
+
+  "useCallback": {
+    "prefix": "usc",
+    "body": [
+      "useCallback(",
+      "\t() => {",
+      "\t\t${1:callback}",
+      "\t},",
+      "\t[${2:input}],",
+      ")"
+    ]
+  },
+
+  "useMemo": {
+    "prefix": "usm",
+    "body": ["useMemo(() => ${1:function}, ${2:input})"]
+  },
+
+  "useRef": {
+    "prefix": "usre",
+    "body": ["const ${1:ref} = useRef(${2:initialValue})"]
+  },
+
+  "useSelector": {
+    "prefix": "usrs",
+    "body": ["const ${1} = useSelector(state => state.${2}"]
+  },
+  
+  "useDispatch": {
+    "prefix": "usrd",
+    "body": ["const ${1:dispatch} = useDispatch()"]
+  },
+
+  "useStore": {
+    "prefix": "usrst",
+    "body": ["const ${1:store} = useStore()"]
   }
 }
