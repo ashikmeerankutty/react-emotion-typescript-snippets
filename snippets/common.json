@@ -69,5 +69,10 @@
   "useStore": {
     "prefix": "usrst",
     "body": ["const ${1:store} = useStore()"]
+  },
+
+  "EmotionCSS": {
+    "prefix": "ecss",
+    "body": ["const ${1}Styles = css`${2}`"]
   }
 }
