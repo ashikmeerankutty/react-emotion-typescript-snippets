@@ -7,7 +7,7 @@
 
   "useState": {
     "prefix": "uss",
-    "body": ["const [${1}, set${1/(.*)/${1:/pascalcase}/}] = useState($2)"]
+    "body": ["const [${1}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState($2)"]
   },
 
   "useEffect": {
